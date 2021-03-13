@@ -1,16 +1,23 @@
-# predictionmodelhdd
 
-A new Flutter application.
+### HDD Failure Predictor
+## SheHacks Team-109
 
-## Getting Started
+#### A flutter app to predict the working of a Hard Drive
 
-This project is a starting point for a Flutter application.
+#### Based on 5 smart attributes the machine learning model will predict whether the hard drive will fail or not within a period of 100 days 
 
-A few resources to get you started if this is your first Flutter project:
+#### Motive behind the project:
+- Data centres need to maintain large scale hard disks and require certain support for the maintenance work in the data centres.
+- Data centres technicians are familiar with health and safety processes when performing preventive maintenance tasks by documenting them in every PM procedure and by providing regular safety training.
+- A application which can predict whether the hard disk will crash within a time span of 100 days will prove to be very helpful for the technicians in the data centres to carry out preventive measures to increase the life of the hard disk
+ 
+##### The machine learning model is deployed on heroku platform 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+###### Google Drive link to the presentation
+https://drive.google.com/drive/folders/18fPeX1K7-dV6aXwMqZzliwRGgVtIQE1g
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###### Github link to the flask application used for deployment of the ML model is
+https://github.com/vanshikachokhani/Shehacks_team-109
+
+###### Link to the heroku app
+https://hdd-failure-predictor.herokuapp.com/
