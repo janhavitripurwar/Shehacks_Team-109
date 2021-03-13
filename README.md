@@ -21,3 +21,7 @@ https://github.com/vanshikachokhani/Shehacks_team-109
 
 ###### Link to the heroku app
 https://hdd-failure-predictor.herokuapp.com/
+
+<img src="https://user-images.githubusercontent.com/50945749/111051934-d50ad480-847c-11eb-989b-4481edb6d092.jpeg" alt="" style="height: 10px; width:80px;"/>
+<img src="https://user-images.githubusercontent.com/50945749/111051959-ec49c200-847c-11eb-8a6e-62ec9f6b2411.jpeg" alt="" style="height: 10px; width:80px;"/>
+<img src="https://user-images.githubusercontent.com/50945749/111051934-d50ad480-847c-11eb-989b-4481edb6d092.jpeg" alt="" style="height: 10px; width:80px;"/>
