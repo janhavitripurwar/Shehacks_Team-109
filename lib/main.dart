@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:predictionmodelhdd/user_model.dart';
 
+const PrimaryColor = const Color(0xFF151026);
 
 void main() {
   runApp(My());
@@ -14,6 +15,9 @@ class My extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primaryColor: PrimaryColor,
+      ),
       home: MyApp(),
     );
   }
@@ -31,18 +35,22 @@ class MyApp extends StatelessWidget {
 }
 
 showAlertDialog(BuildContext context) {
-  // set up the button
-  Widget okButton = FlatButton(
-    child: Text("OK"),
-    onPressed: () { },
-  );
-  // set up the AlertDialog
+
   AlertDialog alert = AlertDialog(
-    title: Text("My title huaa"),
-    content: Text("This is my message huaaa."),
-    actions: [
-      okButton,
-    ],
+    title: Text("Hurray!!! Your HDD is Safe :)",style: TextStyle(
+      fontSize: 30,
+      color: Colors.green,
+
+    ),),
+    content: new Container(
+      width: 20.0,
+      height: 20.0,
+      decoration: new BoxDecoration(
+        shape: BoxShape.rectangle,
+        color: const Color(0xFFFFFF),
+        borderRadius: new BorderRadius.all(new Radius.circular(22.0)),
+      )
+    ),
   );
   // show the dialog
   showDialog(
@@ -54,18 +62,22 @@ showAlertDialog(BuildContext context) {
 }
 
 showAlertDialog2(BuildContext context) {
-  // set up the button
-  Widget okButton = FlatButton(
-    child: Text("OK"),
-    onPressed: () { },
-  );
+
   // set up the AlertDialog
   AlertDialog alert = AlertDialog(
-    title: Text("Dont Worry"),
-    content: Text("This is my message."),
-    actions: [
-      okButton,
-    ],
+    title: Text("Warning!! Your HDD needs maintenance",style: TextStyle(
+      fontSize: 30,
+      color: Colors.red,
+    ),),
+      content: new Container(
+          width: 20.0,
+          height: 20.0,
+          decoration: new BoxDecoration(
+            shape: BoxShape.rectangle,
+            color: const Color(0xFFFFFF),
+            borderRadius: new BorderRadius.all(new Radius.circular(22.0)),
+          )
+      )
   );
   // show the dialog
   showDialog(
@@ -143,7 +155,13 @@ class _HomePageState extends State<HomePage> {
     final size = MediaQuery.of(context).size;
     return Scaffold(
         appBar: AppBar(
-          title: Text('HDD Failure Predictor'),
+          title: Text('HDD Failure Predictor',style: TextStyle(
+            fontSize: 30,
+            //background: Colors.black87
+          ),),
+          actions: [
+            IconButton(icon: Icon(Icons.computer_outlined), onPressed: null , color: Colors.white),
+          ],
         ),
         body: SingleChildScrollView(
           child: Container(
@@ -163,7 +181,7 @@ class _HomePageState extends State<HomePage> {
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.green, width: 1.0),
                           ),
-                          hintText: 'Mobile Number',
+                          hintText: 'smart_5_raw',
                         ),
 
                       ),
@@ -177,7 +195,7 @@ class _HomePageState extends State<HomePage> {
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.red, width: 1.0),
                           ),
-                          hintText: 'smart_5_raw',
+                          hintText: 'smart_187_raw',
                         ),
                       ),
                       SizedBox(height: 45,),
@@ -190,7 +208,7 @@ class _HomePageState extends State<HomePage> {
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.green, width: 1.0),
                           ),
-                          hintText: 'smart_187_raw',
+                          hintText: 'smart_188_raw',
                         ),
                       ),
                       SizedBox(height: 45,),
@@ -203,7 +221,7 @@ class _HomePageState extends State<HomePage> {
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.red, width: 1.0),
                           ),
-                          hintText: 'smart_187_raw',
+                          hintText: 'smart_197_raw',
                         ),
                       ),
                       SizedBox(height: 45,),
@@ -216,7 +234,7 @@ class _HomePageState extends State<HomePage> {
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: Colors.green, width: 1.0),
                           ),
-                          hintText: 'smart_188_raw',
+                          hintText: 'smart_198_raw',
                         ),
                       ),
                     ],
