@@ -22,6 +22,10 @@ https://github.com/vanshikachokhani/Shehacks_team-109
 ###### Link to the heroku app
 https://hdd-failure-predictor.herokuapp.com/
 
-<img src="https://user-images.githubusercontent.com/50945749/111051934-d50ad480-847c-11eb-989b-4481edb6d092.jpeg" alt="" style="height: 10px; width:80px;"/>
-<img src="https://user-images.githubusercontent.com/50945749/111051959-ec49c200-847c-11eb-8a6e-62ec9f6b2411.jpeg" alt="" style="height: 10px; width:80px;"/>
-<img src="https://user-images.githubusercontent.com/50945749/111051968-fc61a180-847c-11eb-9da5-e202947fc604.jpeg" alt="" style="height: 10px; width:80px;"/>
+![WhatsApp Image 2021-03-14 at 05 56 10](https://user-images.githubusercontent.com/54857354/111053579-f5da2680-848a-11eb-96c0-8a1ea76e77b6.jpeg)
+![WhatsApp Image 2021-03-14 at 05 56 32](https://user-images.githubusercontent.com/54857354/111053581-f8d51700-848a-11eb-8ab2-a905ff16a9d6.jpeg)
+![WhatsApp Image 2021-03-14 at 05 57 24](https://user-images.githubusercontent.com/54857354/111053582-fb377100-848a-11eb-96c9-19eaab4d4e14.jpeg)
+![WhatsApp Image 2021-03-14 at 05 57 23](https://user-images.githubusercontent.com/54857354/111053583-fd99cb00-848a-11eb-9f73-87f65782369b.jpeg)
+![WhatsApp Image 2021-03-14 at 05 56 52 (1)](https://user-images.githubusercontent.com/54857354/111053586-025e7f00-848b-11eb-8716-46098fdd9519.jpeg)
+![WhatsApp Image 2021-03-14 at 05 56 52](https://user-images.githubusercontent.com/54857354/111053585-fffc2500-848a-11eb-860a-50eaf5d4083e.jpeg)
+
